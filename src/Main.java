@@ -13,10 +13,17 @@ public class Main {
 
         double resta=num1-num2;
 
-         double divisor1=num1/resta;
-         double divisor2=num2/resta;
+
+        double divisor1=num1/resta;
 
 
+        double divisor2=num2/resta;
+
+        System.out.println("------------------------");
+        System.out.println("La diferencia entre los dos numeros es "+resta);
+        System.out.println(num1+" / "+resta+" = "+divisor1);
+        System.out.println(num2+" / "+resta+" = "+divisor2);
+        System.out.println("------------------------");
 
     }
 
